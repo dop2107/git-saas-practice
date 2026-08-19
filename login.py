@@ -1,2 +1,4 @@
 def login(username, password):
-    return True
+    if username and password:
+        return True
+    return False
